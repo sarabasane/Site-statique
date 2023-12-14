@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel Chambord</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar smart-scroll navbar-expand-lg" data-bs-theme="light">
+          <a href="index.html"><img id="logo"  src="./images/logo.png" alt="logo chambord" width="150px" height="150px"></a>
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Chambres et Suites
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="chambres.html">Visiter nos chambres</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="chambres.html#Classique">Classique</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="chambres.html#Confort">Confort</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="chambres.html#Deluxe">Deluxe</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="chambres.html#Suites">Suites</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Restauration
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="restaurants.html#restaurant">Prenez place à l'une de nos tables</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="restaurants.html#Brasserie">La brasserie</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="restaurants.html#Degustation">La cantine</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="restaurants.html#Restaurant">Le restaurant</a></li>
+                    </ul>
+                  </li><li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Profitez de notre SPA
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="spa.html">Le SPA et nos soins</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="spa.html#Détente">Soins détente</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="spa.html#Découverte">Soins découverte</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="spa.html#Relaxant">Soins relaxant</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="spa.html#Plaisir">Soins plaisir</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="spa.html#Evasion">Soins évasion</a></li>               
+                    </ul>
+                  </li>          
+                  <li class="nav-item">
+                    <a class="nav-link" href="reservation.html" role="button">Réserver votre séjour</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Valider</button>
+                </form>
+                <div class="switch-lang"> 
+                  <div class="btn btn-outline-dark"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png"/>
+                    <p class="lang-text"></p>
+                  </div>
+                  <div class="lang-dropdown">
+                    <div class="btn btn-outline-dark"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_France.png"/>
+                      <p class="lang-text"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+    <div id="restaurant">
+      <h1>Prenez place à l'une de nos tables</h1>
+    </div>
+    <br>
+    <div id="Brasserie">
+      <h1>Le petit M</h1>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+        <img src="./images/restaurants/brasserie.jpg" width="800" height="600" alt="Le petit M">
+      </div>
+      <hr>
+      <h2>Une Escale Gastronomique Décontractée</h2>
+      <p>
+        Bienvenue à la Brasserie Le Petit M, un lieu où la convivialité et la gastronomie se rencontrent<br> pour créer une expérience culinaire inoubliable au cœur de votre établissement.
+      </p>
+      <br>
+      <h2>L'Atmosphère</h2>
+      <p>
+        La Brasserie Le Petit M incarne l'élégance décontractée. Avec une ambiance accueillante et une décoration raffinée,<br> cette brasserie est l'endroit idéal pour des repas délicieux et décontractés. Laissez-vous séduire par une atmosphère<br> chaleureuse et conviviale, parfaite pour partager un repas entre amis ou pour une pause gourmande en toute simplicité.
+      </p>
+      <br>
+      <h2>Le Menu</h2>
+      <p>
+        Notre menu propose une sélection exquise de plats authentiques et de saveurs variées. Des mets classiques revisités<br> aux créations du chef, chaque plat est préparé avec des ingrédients frais et de qualité supérieure. Cliquez pour découvrir<br> notre <a href="Restaurants/menu brasserie.pdf">carte</a> diversifiée, allant des plats traditionnels aux délices modernes, adaptée à toutes les envies et tous les appétits.
+      </p>
+      <br>
+      <h2>Les Délices du Bar</h2>
+      <p>
+        Le Petit M ne se limite pas à sa cuisine exquise, mais propose également une sélection raffinée de boissons.<br> Dégustez des cocktails créatifs, des vins soigneusement sélectionnés ou savourez une boisson rafraîchissante tout en appréciant<br> l'atmosphère animée de notre bar. Notre équipe de mixologues talentueux saura vous surprendre avec des créations uniques.
+      </p>
+      <br>
+      <h2>Moments de Détente</h2>
+      <p>
+        Que ce soit pour un déjeuner rapide, un dîner décontracté ou simplement pour passer un moment agréable,<br> Le Petit M vous accueille à toute heure de la journée. Profitez de notre terrasse ensoleillée<br> ou détendez-vous à l'intérieur dans un cadre où l'élégance rencontre la simplicité.
+      </p>
+      <br>
+      <h2>Venez nous Rejoindre</h2>
+      <p>
+        Que vous soyez résident de l'hôtel ou visiteur extérieur, rejoignez-nous à la Brasserie Le Petit M<br> pour une expérience gastronomique détendue mais raffinée. Nous sommes impatients de vous accueillir<br> pour partager des moments gourmands et conviviaux dans ce lieu où la cuisine de qualité<br> rencontre l'atmosphère décontractée d'une brasserie de renom.
+      </p>
+    </div>
+    <br>
+    <div id="Degustation">
+      <h1>La Cantine Chambord</h1>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+        <img src="./images/restaurants/degustation2.jpg" alt="La cantine Chambord">
+      </div>
+      <hr>
+      <h2>L'Authenticité à l'Heure du Déjeuner</h2>
+      <p>
+        Bienvenue à la Cantine Chambord, un espace dédié à la convivialité<br> et à la cuisine authentique pour vos déjeuners au cœur de l'Hôtel.
+      </p>
+      <br>
+      <h2>Le Concept</h2>
+      <p>
+      La Cantine Chambord propose une expérience décontractée et rapide pour votre pause déjeuner.<br> Nous nous engageons à offrir des repas savoureux, frais et préparés avec soin dans un environnement<br> convivial. Notre objectif est de vous offrir une cuisine de qualité supérieure, alliant rapidité et authenticité<br> pour satisfaire vos papilles tout en respectant votre emploi du temps chargé.
+      </p>
+      <br>
+      <h2>Le Menu</h2>
+      <p>
+        <a href="../Site statique/Restaurants/le chambord.pdf">Notre menu</a> est une célébration de plats classiques et contemporains, élaborés avec des ingrédients de première qualité.<br> Découvrez une sélection variée de plats chauds, de salades fraîches, de sandwiches gourmets et de desserts exquis.<br> Chaque plat est préparé avec attention, offrant une explosion de saveurs pour une expérience gustative satisfaisante.
+      </p>
+      <br>
+      <h2>Flexibilité et Rapidité</h2>
+      <p>
+        À la Cantine Chambord, nous comprenons l'importance du temps pendant la pause déjeuner.<br> Notre équipe dévouée est là pour vous servir rapidement sans compromettre la qualité.<br> Que vous soyez pressé ou que vous souhaitiez vous détendre un peu plus longtemps,<br> nous nous adaptons à vos besoins pour vous offrir une expérience personnalisée.
+      </p>
+      <br>
+      <h2>L'Environnement</h2>
+      <p>
+        Notre espace accueillant et lumineux offre un cadre décontracté où vous pouvez savourer votre déjeuner<br> en toute tranquillité. Que ce soit pour une pause repas rapide ou pour un moment de détente, la Cantine<br> Chambord vous offre un environnement agréable pour vous ressourcer avant de reprendre votre journée.
+      </p>
+      <br>
+      <h2>Rejoignez-nous pour le Déjeuner</h2>
+      <p>
+        Que vous soyez un résident de l'hôtel ou un visiteur extérieur, venez vivre l'expérience de la Cantine Chambord<br> pour un déjeuner délicieux et rapide. Nous sommes impatients de vous accueillir pour une pause gourmande<br> où la qualité culinaire rencontre la praticité d'un déjeuner rapide dans un cadre élégant et convivial.
+      </p>
+    </div>
+    <br>
+    <div id="Restaurant">
+      <h1>Le Montaigne</h1>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+        <img src="./images/restaurants/degustation.jpg" width="800" height="600" alt="Le Montaigne">
+      </div>
+      <hr>
+      <h2>Restaurant Étoilé Le Montaigne<br> Une Ode à la Gastronomie d'Exception</h2>
+      <p>
+        Bienvenue au restaurant Le Montaigne, un lieu où la cuisine devient une forme d'art<br> et chaque repas une expérience mémorable. Notre établissement, couronné d'étoiles,<br> est dédié à l'excellence culinaire et à l'innovation gastronomique.
+      </p>
+      <br>
+      <h2>La Cuisine</h2> 
+      <p>
+        Gaspard Savoureux notre chef étoilé reconnu pour son talent et sa créativité,<br> vous emmène dans un voyage gustatif inoubliable. Inspirée par les saisons<br> et les produits locaux d'une fraîcheur inégalée, notre cuisine met en valeur<br> les saveurs authentiques, les textures exquises et les présentations élégantes.<br> Chaque plat est une œuvre d'art, harmonisant tradition et modernité pour éveiller les sens.
+      </p>
+      <br>
+      <h2>L'Expérience</h2>
+      <p>
+        Dans un cadre élégant et raffiné, Le Montaigne offre une atmosphère chaleureuse et intimiste.<br> Les tables finement dressées, le service attentionné et l'ambiance feutrée créent le décor parfait<br> pour une expérience culinaire de premier ordre. Découvrez <a href="../Site statique/Restaurants/montaigne.pdf">nos menus</a> élaborés<br> avec passion, mettant en valeur la diversité des saveurs et la subtilité des alliances culinaires.
+      </p>
+      <br>
+      <h2>La Carte des Vins</h2>
+      <p>
+        Notre sommelier expert a sélectionné une cave exceptionnelle, mettant en vedette des crus d'exception <br>venus des quatre coins du monde. Chaque vin a été soigneusement choisi pour compléter parfaitement<br> les plats proposés, offrant une expérience sensorielle complète et élevant chaque bouchée à de nouvelles hauteurs.
+      </p>
+      <br>
+      <h2>Événements et Privatisations</h2>
+      <p>
+        Le Montaigne est l'endroit idéal pour des événements privés, des célébrations spéciales et des réunions exclusives.<br> Notre équipe dévouée travaille avec vous pour créer des expériences sur mesure, alliant la gastronomie<br> de renom à un service impeccable, garantissant ainsi des moments uniques et inoubliables.
+      </p>
+      <br>
+      <hr>
+      <h2>Réservez Votre Table</h2>
+      <p>
+        Que ce soit pour une occasion spéciale, un dîner romantique ou tout simplement pour savourer une cuisine exceptionnelle,<br><a href="reservation.html#restaurants">réservez dès maintenant</a> votre table dans l'un de nos restaurants. Plongez dans un univers où la passion pour la gastronomie<br> se traduit par des plats exquis et des souvenirs gastronomiques inoubliables.
+        Nous avons hâte de vous accueillir<br> pour une expérience culinaire d'exception où chaque plat raconte une histoire de saveurs et d'émotions.
+      </p>
+    </div>
+      
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="container bottom_border">
+              <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Contactez-nous</h5>
+            <!--headin5_amrc-->
+                    <p class="mb10">Hôtel - Resort  Chambord</p>
+                    <p><i class="fa fa-location-arrow"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"/>
+                      <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                    </svg> 1 Avenue Montaigne 75008 PARIS</p>
+                    <p><i class="fa fa-phone"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg> 01 45 90 67 23</p>
+                    <p><i class="fa fa fa-envelope"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                      <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                    </svg> contact@chambord.fr</p>
+                </div>
+                <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Chambord</h5>
+            <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                    <li><a href="http://webenlance.com">Qui sommes nous ?</a></li>
+                    <li><a href="http://webenlance.com">Accès</a></li>
+                    <li><a href="http://webenlance.com">Contact</a></li>
+                    <li><a href="http://webenlance.com">Recrutement</a></li>
+                  </ul>
+            <!--footer_ul_amrc ends here-->
+                </div>
+                <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Liens divers</h5>
+            <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                    <li><a href="http://webenlance.com">Mentions légales</a></li>
+                    <li><a href="http://webenlance.com">Conditions générales de vente</a></li>
+                    <li><a href="http://webenlance.com">Plan du site</a></li>
+                    <li><a href="http://webenlance.com">Imprimer la page</a></li>
+                    <li><a href="http://webenlance.com">S'inscrire à la newsletter</a></li>
+                    <li><a href="http://webenlance.com">Partage</a></li>
+                  </ul>
+            <!--footer_ul_amrc ends here-->
+                </div> 
+                <div class=" col-sm-4 col-md  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Suivez-nous sur nos réseaux sociaux</h5>
+            <!--headin5_amrc ends here-->
+                    <ul class="footer_ul2_amrc">
+                      <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                      </svg></a><p><a href="#">@chambord-hotel</a></p></li>
+                      <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg> </a><p><a href="#">@chambord-hotel</a></p></li>
+                      <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg> </a><p><a href="#">@chambord-hotel</a></p></li>
+                    </ul>
+            <!--footer_ul2_amrc ends here-->
+                  </div>
+                </div>
+              </div>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+              <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+            </svg> Tous droits réservés 2024 | Réalisé par Saraba Sané <a href="#">Modern Attitude</a></p>
+            <!--social_footer_ul ends here-->
+            </div>     
+            </footer>      
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
