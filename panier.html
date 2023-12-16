@@ -97,105 +97,7 @@
         </nav>
     </header>
     <main>
-      <h1>Préparer votre séjour</h1>
-      <p>
-        Bienvenue au Service de réservations, votre passerelle vers une expérience de luxe<br> personnalisée et sans pareille. Nous sommes fiers de vous offrir un service haut de<br> gamme, conçu pour répondre à chacun de vos besoins avec efficacité et raffinement.
-      </p>
-      <br>
-      <hr>
-      <img class="d-none d-sm-none d-md-block d-lg-block d-xl-block w-100" width="800" height="800" src="./images/reservation/conciergerie.jpg" alt="Notre conciergerie à votre disposition">
-      <br>
-      <hr>
-      <h1 id="Chambres">Réservations</h1>
-      <p>
-        Plongez dans un monde d'élégance et de confort en réservant l'une de nos chambres luxueuses.<br> Que vous optiez pour une suite spacieuse offrant une vue imprenable ou une chambre élégamment<br> décorée, notre équipe dévouée est là pour vous assurer un séjour inoubliable. Grâce à notre système de<br> réservation convivial, vous pouvez choisir parmi une gamme de chambres et bénéficier d'options sur mesure<br> pour personnaliser votre expérience.
-      </p>
-      <br>
-      <p>
-        Savourez une cuisine raffinée et des saveurs exquises en réservant une table dans l'un de nos  restaurants.<br> Nos équipes vous régaleront avec des plats créatifs, élaborés à partir d'ingrédients frais et de saison.<br> Qu'il s'agisse d'un dîner intime en tête-à-tête ou d'un repas festif entre amis, notre service de réservation<br> vous garantit une expérience culinaire exceptionnelle, accompagnée d'un service attentif et chaleureux.
-      </p>
-      <br>
-      <p>
-        Offrez-vous une escapade relaxante en réservant une séance dans notre Spa. Plongez dans un<br> monde de bien-être où des traitements de qualité et des installations luxueuses vous attendent.<br> Notre service de réservation pour le spa vous permet de planifier votre journée de détente,<br> que ce soit pour des massages apaisants, des soins du visage revitalisants ou l'accès à nos<br> installations de relaxation pour une expérience complète de ressourcement.
-      </p>
-      <br>
-      <div>
-        <form id="Chambres" class="needs-validation" novalidate action="#" method="post">
-          <div class="input-group mb-3 row-cols-3">
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="sonNom" required maxlength="26" minlength="1">
-            <div class="invalid-feedback">Merci d'indiquer un nom</div>
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="sonPrenom" required maxlength="26" minlength="3">
-            <div class="invalid-feedback">Merci d'indiquer un prénom</div>
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="email" class="form-label">Email</label>
-              <input type="email" name="email" id="email" required>
-              <div class="invalid-feedback">Merci d'entrer un e-mail valide</div>
-          </div>
-          <div class="d-flex mx-auto p-2 w-50 mb-3 grid gap-3">
-            <select class="form-select" aria-label="Chambres">
-              <option selected value="">Chambre</option>
-              <option value="1">Classique</option>
-              <option value="2">Confort</option>
-              <option value="3">Deluxe</option>
-              <option value="4">Suite</option>
-            </select>
-            <select class="form-select" aria-label="Restaurants">
-              <option selected value="">Restaurant</option>
-              <option value="1">Le petit M</option>
-              <option value="2">La cantine Chambord</option>
-              <option value="3">Le Montaigne</option>
-            </select>
-            <select class="form-select" aria-label="Spa">
-              <option selected value="">Séance SPA</option>
-              <option value="1">Détente</option>
-              <option value="2">Découverte</option>
-              <option value="3">Relaxation</option>
-              <option value="4">Plaisir</option>
-              <option value="5">Évasion</option>
-            </select>
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="adultes">Nombre d'adultes</label>
-            <input type="number" name="nombre" id="adultes" min="1">
-            <div class="invalid-feedback">Au moins 1 adulte</div>
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="enfants">Nombre d'enfants</label>
-            <input type="number" name="nombre" id="enfants" min="0">
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="dateDarrivee">Date d'arrivée</label>
-            <input type="text" name="arrivee" class="calendar1" required>
-            <div class="valid-feedback">Merci d'indiquer une date d'arrivée</div>
-          </div>
-          <div class="input-group mb-3 row-cols-3">
-            <label for="dateDepart">Date de départ</label>
-            <input type="text" name="depart" class="calendar2" required>
-            <div class="valid-feedback">Merci d'indiquer une date de départ</div>
-          </div>          
-          <div class="input-group mb-3 row-cols-3">
-            <label for="text">Laissez-nous un message</label>
-          </div>
-          <div>
-            <textarea name="commentaires" id="commentaires" placeholder="Laisser un message" cols="45" row="10"></textarea>
-          </div>
-          <div class="mb-3 row-cols-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">Accepter les termes et conditions</label>
-              <div class="invalid-feedback">Merci d'accepter les termes et conditions.</div>
-            </div>
-          </div>
-          <div class="text-center m-3">
-            <button class="btn btn-primary" type="submit" name="submit">Ajouter au panier</button>
-          </div>
-        </form>
-      </div>
+    <h1>Mon panier</h1>
     </main>
     <footer>
         <footer class="footer">
@@ -270,7 +172,6 @@
     <script src="./js/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/reservation.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
