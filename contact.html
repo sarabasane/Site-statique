@@ -103,11 +103,13 @@
         Bienvenue dans l'espace contact, votre passerelle vers une expérience de luxe<br> personnalisée et sans pareille. Nous sommes fiers de vous offrir un service haut de<br> gamme, conçu pour répondre à chacun de vos besoins avec efficacité et raffinement.
       </p>
       <br>
-      <img src="./images/reservation/contact.avif" alt="label de satisfaction clients">
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+        <img src="./images/reservation/contact.avif" alt="label de satisfaction clients">
+      </div>
       <br>
       <br>
       <div>
-        <form id="Chambres" class="needs-validation" novalidate action="#" method="post">
+        <form id="Chambres" class="needs-validation d-sm-none d-md-block d-lg-block d-xl-block" novalidate action="#" method="post">
           <div class="input-group mb-3 row-cols-3">
             <label for="nom">Nom</label>
             <input type="text" id="nom" name="sonNom" required maxlength="26" minlength="1">
@@ -141,7 +143,7 @@
               <option value="4">Ordre général</option>
             </select>
           </div>
-          <div class="input-group mb-3 row-cols-3">
+          <div class="input-group mb-3 row-cols-3 d-sm-none d-md-block d-lg-block d-xl-block">
             <label for="text">Laissez-nous un message</label>
           </div>
           <div>
