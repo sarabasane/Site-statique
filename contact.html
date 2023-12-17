@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hôtel Chambord</title>
     <meta name="description" content="">
+    <link rel="alternate" media="print" href="contact.html">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/jquery-ui.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -118,20 +119,39 @@
             <div class="invalid-feedback">Merci d'indiquer un prénom</div>
           </div>
           <div class="input-group mb-3 row-cols-3">
+            <label for="entreprise">Entreprise</label>
+            <input type="text" id="entreprise" name="votreEntreprise" maxlength="26" minlength="3">
+          </div>
+          <div class="input-group mb-3 row-cols-3">
             <label for="email" class="form-label">Email</label>
               <input type="email" name="email" id="email" required>
               <div class="invalid-feedback">Merci d'entrer un e-mail valide</div>
+          </div>
+          <div class="input-group mb-3 row-cols-3">
+            <label for="pays">pays</label>
+            <input type="text" id="pays" name="votrePays" required maxlength="26" minlength="3">
+            <div class="invalid-feedback">Merci d'indiquer votre Pays</div>
+          </div>
           </div>         
+          <select class="form-select mb-3 w-25 mx-auto" aria-label="Chambres">
+            <option selected value="">Catégorie</option>
+              <option value="1">Chambre</option>
+              <option value="2">Restaurant</option>
+              <option value="3">Spa</option>
+              <option value="4">Ordre général</option>
+            </select>
+          </div>
           <div class="input-group mb-3 row-cols-3">
             <label for="text">Laissez-nous un message</label>
           </div>
           <div>
             <textarea name="commentaires" id="commentaires" placeholder="Laisser un message" cols="45" row="10"></textarea>
           </div>
-          <div class="text-center m-3">
-            <button class="btn btn-primary" type="submit" name="submit">Envoyer</button>
-          </div>
         </form>
+        <div class="mx-auto p-2 w-50 mb-3 grid gap-3">
+        <div class="text-center m-3">
+          <button class="btn btn-primary" type="submit" name="submit">Envoyer</button>
+        </div>
       </div>
     </main>
     <footer>
@@ -158,10 +178,12 @@
                   <h5 class="headin5_amrc col_white_amrc pt2">Chambord</h5>
             <!--headin5_amrc-->
                   <ul class="footer_ul_amrc">
-                    <li><a href="http://webenlance.com">Qui sommes nous ?</a></li>
-                    <li><a href="http://webenlance.com">Accès</a></li>
+                    <li><a href="histoire.html">Qui sommes nous ?</a></li>
+                    <li><a href="acces.html">Accès</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="http://webenlance.com">Recrutement</a></li>
+                    <li><a href="recrutement.html">Recrutement</a></li>
+                    <li><a href="avis.html">Avis</a></li>
+                    <li><a href="presse.html">Presse</a></li>
                   </ul>
             <!--footer_ul_amrc ends here-->
                 </div>
@@ -169,12 +191,13 @@
                   <h5 class="headin5_amrc col_white_amrc pt2">Liens divers</h5>
             <!--headin5_amrc-->
                   <ul class="footer_ul_amrc">
-                    <li><a href="http://webenlance.com">Mentions légales</a></li>
-                    <li><a href="http://webenlance.com">Conditions générales de vente</a></li>
-                    <li><a href="http://webenlance.com">Plan du site</a></li>
-                    <li><a href="http://webenlance.com">Imprimer la page</a></li>
-                    <li><a href="http://webenlance.com">S'inscrire à la newsletter</a></li>
-                    <li><a href="http://webenlance.com">Partage</a></li>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="cgv.html">Conditions générales de vente</a></li>
+                    <li><a href="plan-site.html">Plan du site</a></li>
+                    <li><a href="javascript:window.print()">Imprimer la page</a>
+                      <iframe height="0px" src="contact.html" style="visibility: hidden"></iframe></li>
+                    <li><a href="newsletter.html">S'inscrire à la newsletter</a></li>
+                    <li><a href="http://facebook.com/sharer.php?u=index.html&=Chambord Hotel - Resort">Partage</a></li>
                   </ul>
             <!--footer_ul_amrc ends here-->
                 </div> 

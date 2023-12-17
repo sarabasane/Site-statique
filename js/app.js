@@ -17,5 +17,8 @@ if ($('.smart-scroll').length > 0) { // check if element exists
     });
 }});
 
+function immression() {
+    window.frames[0].print();
+}
 
 
